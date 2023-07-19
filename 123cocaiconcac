@@ -1,0 +1,22 @@
+local DarkraiX = loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Kavo-Ui/main/Darkrai%20Ui", true))()
+
+local Library = DarkraiX:Window("Script Yen","","",Enum.KeyCode.RightControl);
+Tab1 = Library:Tab("Main")
+
+Tab1:Button("auto chest",function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+end)
+
+Tab1:Button("kill player",function()
+    game.Players.LocalPlayer.Character.Humanoid.Health = 0
+end)
+
+Tab2 = Library:Tab("Blox Fruits")
+
+Tab2:Button("mtriethub(ko có key)",function()
+    loadstring(game:HttpGet("https://codeberg.org/MTrietHub/Free-Script/raw/branch/main/MTriet-Hub.lua"))()
+end)
+
+Tab2:Button("relzhub(có key)",function()
+    loadstring(Game:HttpGet"https://relzhub.xcodehoster.com/loader.lua")()
+end)
